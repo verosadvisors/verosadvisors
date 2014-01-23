@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	{% include head.html %}
+	<body>
+		{% include analytics.html %}
+		{% include header.html %}
+		<div id="content">
+		{% include title.html %}
+		  <div id="wrapper" class="clearfix"> <!-- /Content Wrapper -->
+			{{ content }}
+		  </div> <!-- /Content Wrapper -->
+		</div> <!-- /#Content -->
+		{% include footer.html %}
+		{% include copyright.html %}
+	</body>
+</html>

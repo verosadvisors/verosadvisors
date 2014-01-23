@@ -1,0 +1,95 @@
+/*!
+ * Veros Advisors v0.0.1
+ * Project Start Date: 09/01/2013
+ * Copyright 2013 Veros Advisors, LLC
+ *
+ * Designed and built by @twitter @matthewfieger @verosadvisors
+ * This project is supported by open source software:
+ 	* Twitter Bootstrap 3.x
+ 	* JQuery 1.x
+ 	* Respond.js
+ 	* HTML5 Shiv
+ 	* Glyphicons for Bootstrap
+ 	* {LESS}
+ */
+
+
+
+// Imports
+// ---------------------------------------------------------------------------
+
+@import "variables.less";
+@import "mixins.less";
+
+
+
+// Page Title
+// ---------------------------------------------------------------------------
+
+#page-title {    	
+	padding: 40px 10px 40px 10px;
+	margin: 0px 0px 30px 0px;
+	.directional(@black-7, @black-3, 90deg);
+}
+
+#page-title h1 {
+	font-weight: 600;
+}
+
+#page-title p {
+	margin-bottom: 0;
+	font-size: 15px;
+}
+
+.title-wrapper {
+	margin: 0 auto;
+	max-width: @width-page;
+	padding: 0;
+}
+
+
+
+// Miscellaneous
+// ---------------------------------------------------------------------------
+
+.slash {
+	padding-right: 5px;
+	color: @red;
+}
+
+.row-divider {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.clearfix,
+.row { zoom: 1; }
+.clearfix:before,
+.row:before,
+.clearfix:after,
+.row:after { content: ""; display: table; }
+.clearfix:after,
+.row:after { clear: both; }
+
+
+
+// Responsive Media Embed
+// ---------------------------------------------------------------------------
+    
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
