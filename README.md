@@ -1,1 +1,14 @@
-Designed by [@verosadvisors](http://verosadvisors.com), built by [@matthewfieger](http://twitter.com/matthewfieger), built with [Jekyll](http://jekyllrb.com/), and hosted on [GitHub Pages](http://pages.github.com/).
+Veros Advisors
+==============
+
+All content is copyright Veros Advisors. Do not reuse any part without written permission.
+
+Designed by [@verosadvisors](http://verosadvisors.com) and built by [@matthewfieger](http://twitter.com/matthewfieger).
+
+Built on:
+* [Jekyll](http://jekyllrb.com/)
+* [Bootstrap](http://getbootstrap.com/)
+* [{LESS}](http://www.lesscss.org/)
+* [jQuery](http://jquery.com/)
+
+Hosted on [GitHub Pages](http://pages.github.com/).
