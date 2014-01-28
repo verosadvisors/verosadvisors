@@ -1,0 +1,81 @@
+/*!
+ * Veros Advisors v0.0.1
+ * Project Start Date: 09/01/2013
+ * Copyright 2013 Veros Advisors, LLC
+ *
+ * Designed and built by @twitter @matthewfieger @verosadvisors
+ * This project is supported by open source software:
+ 	* Twitter Bootstrap 3.x
+ 	* JQuery 1.x
+ 	* Respond.js
+ 	* HTML5 Shiv
+ 	* Glyphicons for Bootstrap
+ 	* {LESS}
+ */
+
+
+// Imports
+// ---------------------------------------------------------------------------
+
+@import "variables.less";
+@import "mixins.less";
+
+
+
+// Home
+// ---------------------------------------------------------------------------
+
+#jumbotron {
+	  .directional(@blue-40, @blue, -45deg);
+	  color: #ffffff;
+}
+
+#jumbotron .background {
+	background-image: url("../img/home/radar.png");
+	background-position: center center;
+	background-size: cover;
+	repeat: none;
+}
+
+#jumbotron h1 {
+  padding: 30px 15px 20px 15px;
+  font-size: 400%;
+
+}
+
+#jumbotron p {
+	font-size: 18px;
+	padding: 20px 15px 30px 15px;
+
+}
+
+
+   
+// Method
+// ---------------------------------------------------------------------------
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    }
+
+.method-tab {
+	margin-top: 20px;
+}
+
+// Contact
+// ---------------------------------------------------------------------------
+
+.thumbnail h4 {
+	color: @red;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+// Contact
+// ---------------------------------------------------------------------------
+
+#contact-map {
+	margin: -30px 0 -34px 0;
+}

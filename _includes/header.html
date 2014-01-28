@@ -1,0 +1,25 @@
+<div id="wrapper" class="clearfix"> <!-- /Header-Nav Wrapper -->
+	<div id="header">
+	  <div class="container">
+		  <div class="row">
+			  <div class="col-md-6">
+				<h1 id="title">
+				  <a href="./index.html"><img alt="" src="./assets/img/global/logo.png" height="75px"></a>
+				</h1>
+			  </div>
+		  </div>
+	  </div> <!-- /container -->
+	</div> <!-- /header -->
+	<div id="nav" class="clearfix">
+	  <div class="container">
+		<ul id="main-nav">
+		  <li {% if page.name == 'home' %}class="active"{% endif %}><a href="./index.html">Home</a></li>
+		  <li {% if page.name == 'method' %}class="active"{% endif %}><a href="./method.html">Method</a></li>
+		  <li {% if page.name == 'services' %}class="active"{% endif %}><a href="./services.html">Products & Services</a></li>
+		  <li {% if page.name == 'impact' %}class="active"{% endif %}><a href="./impact.html">Impact</a></li>
+		  <li {% if page.name == 'people' %}class="active"{% endif %}><a href="./people.html">People</a></li>
+		  <li {% if page.name == 'contact' %}class="active"{% endif %}><a href="./contact.html">Contact</a></li>
+		</ul>
+	  </div> <!-- /container -->
+	</div> <!-- /nav -->
+</div> <!-- / Header-Nav Wrapper -->
