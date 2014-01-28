@@ -60,6 +60,6 @@ input{font:13px 'Open Sans',arial,sans-serif;}
 #contact-map{margin:-30px 0 -34px 0;}
 @media (max-width:990px){body{padding:0;} #wrapper{width:auto;padding:20px;}}@media (max-width:990px){#header{padding:25px 0;text-align:center;} #header h1{display:inline-block;}}@media (max-width:990px){#nav{padding:0 25px;} #main-nav{display:none;} #responsive-nav{display:block;}}@media (max-width:990px){#page-title{padding:40px 10px 40px 10px;margin:0px 0px 30px 0px;text-align:center;}}@media (max-width:990px){img.dimensions{width:100%;max-width:750px;}}@media (min-width:990px){img.dimensions{width:100%;max-width:700px;}}img.innovation{width:100%;max-width:630px;}
 img.strategy{max-width:180px;}
-img.services{max-width:455px;}
+img.services{max-width:455px; width: 100%;}
 img.people{max-width:135px;}
 @media (max-width:990px){#copyright{padding:20px;margin:0;} #copyright p{text-align:center;} #copyright #rights{padding-top:30px;} #copyright [class^="grid-"]{margin-bottom:1em;}}@media (max-width:990px){#footer{padding:20px;margin:0;} [class^="grid-"]{float:none;width:auto;margin:0 0 0 0;}}@media (max-width:990px){.thumbnail{display:inline-block;}}
