@@ -7,4 +7,4 @@ tags: ["innovation", "design thinking", "UCSC"]
 author: "Matthew Fieger"
 ---
 
- <a href="#"><img alt="image" class="img-polaroid" src="{{ site.url }}/assets/img/blog/smart-talk-advert.png" width="80%"></a>
+<img alt="image" class="img-polaroid" src="{{ site.url }}/assets/img/blog/smart-talk-advert.png" width="100%">
