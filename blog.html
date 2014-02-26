@@ -5,19 +5,21 @@ title: "Blog Posts"
 headline: "Stay up to date with our latest news and ideas."
 ---
 
-
-<div class="col-md-12">
+{% comment %} Why doesn't this work with paginator.posts {% endcomment %}
 
 <!-- Posts -->
-{% for post in paginator.posts %}
-    <span class="label label-info pull-right hidden-xs">{{ post.tags }}</span>
+{% for post in site.posts %}
+<div class="row col-md-12" style="margin-bottom:40px">
     <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+    <span class="label label-info">{{ post.tags[0] }}</span>
     <small><em>Posted {{ post.date | date_to_string }} by {{ post.author }}.</em></small>
-    <hr class="row-divider">
+    <hr>
     {{ post.content }}
+</div>
 {% endfor %}
 
 <!-- Pagination -->
+<div class="row col-md-12">
 {% if paginator.total_pages > 1 %}
 <ul class="pagination">
   {% if paginator.previous_page %}
@@ -41,9 +43,3 @@ headline: "Stay up to date with our latest news and ideas."
 {% endif %}
 
 </div> <!-- col-md-12 -->
-
-
-
-
-
-
