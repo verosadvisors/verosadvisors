@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "UCSC Smart Talk Video Highlights"
+title:  "Designing the Future Video Highlights"
 date:   2014-01-17 10:33:00
 categories: posts
 tags: ["innovation", "design thinking", "designing the future"]

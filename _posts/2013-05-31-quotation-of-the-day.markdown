@@ -7,4 +7,4 @@ tags: ["innovation", "design thinking", "UCSC"]
 author: "Matthew Fieger"
 ---
 
-> Creating value requires understanding your customers better than they understand themselves.
+<img alt="image" class="img-polaroid" src="{{ site.url }}/assets/img/blog/2013-05-31-quotation-of-the-day.png" width="100%">

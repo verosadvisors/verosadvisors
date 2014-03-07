@@ -1,7 +1,7 @@
 Veros Advisors
 ==============
 
-All content is copyright Veros Advisors. Do not reuse any part without written permission.
+All content is copyright Veros Advisors.
 
 Designed by [@verosadvisors](http://verosadvisors.com) and built by [@matthewfieger](http://twitter.com/matthewfieger).
 
