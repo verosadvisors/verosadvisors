@@ -10,4 +10,3 @@ author: "Matthew Fieger"
 <div class="videoWrapper">
 <iframe src="http://player.vimeo.com/video/64323251" width="960" height="540" style="border: 0px;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" kwframeid="1"></iframe>
 </div>
-<a href="http://vimeo.com/64323251">UCSC Quorum February 27 Smart Talk - Introduction</a> from <a href="http://vimeo.com/verosadvisors">Veros Advisors</a>.
