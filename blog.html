@@ -1,0 +1,64 @@
+---
+layout: default
+name: blog
+title: "Blog Posts"
+headline: "Stay up to date with our latest news and ideas."
+---
+
+{% comment %} Why doesn't this work with paginator.posts {% endcomment %}
+
+<div class="container" style="max-width:600px">
+<!-- Posts -->
+{% for post in site.posts %}
+<div class="row col-md-12" style="margin-bottom:40px">
+
+    <!-- Title -->
+    <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+
+    <!-- Tags --><p>
+    {% for category in post.categories %}
+      {% if category != "posts" %}
+        <span class="label label-primary">{{ category }}</span>
+      {% endif %}
+    {% endfor %}
+
+    {% for tag in post.tags %}
+      <span class="label label-primary">{{ tag }}</span>
+    {% endfor %}
+    </p>
+
+    <!-- Author -->
+    <small><em>Posted {{ post.date | date_to_string }} by {{ post.author }}.</em></small>
+    <hr>
+
+    <!-- Content -->
+    {{ post.content }}
+</div>
+{% endfor %}
+
+<!-- Pagination -->
+<div class="row col-md-12">
+{% if paginator.total_pages > 1 %}
+<ul class="pagination">
+  {% if paginator.previous_page %}
+    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a></li>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <li class="active"><a href="#">{{ page }}</a></li>
+    {% elsif page == 1 %}
+      <li><a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+    {% else %}
+      <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a></li>
+  {% endif %}
+</ul>  <!-- /.pagination -->
+{% endif %}
+
+</div> <!-- col-md-12 -->
+</div> <!-- container -->
