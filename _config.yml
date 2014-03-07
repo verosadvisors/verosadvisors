@@ -2,8 +2,8 @@ name: "Veros Advisors"
 markdown: redcarpet
 pygments: true
 
-# url: "http://verosadvisors.com" # for production
-url: "http://0.0.0.0:4000" # for staging
+url: "http://verosadvisors.com" # for production
+# url: "http://0.0.0.0:4000" # for staging
 # to create a local mirror use $ wget -mk http://0.0.0.0:4000
 
 exclude: ["CNAME", "README.md", "less"] # exclude files from site build
